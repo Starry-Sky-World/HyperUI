@@ -1,0 +1,14 @@
+panel {
+    display: block;
+    border: 0;
+    border-radius: 5px;
+    background: var(--theme-color);
+    -webkit-filter: drop-shadow(0 0 3px var(--shadow-color));
+    filter: drop-shadow(0 0 3px var(--shadow-color));
+    margin: 15px;
+    padding: 15px;
+}
+
+panel h1:first-child, panel h2:first-child, panel h3:first-child, panel h4:first-child, panel h5:first-child, panel h6:first-child {
+    margin-top: 0;
+}

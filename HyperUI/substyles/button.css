@@ -1,0 +1,28 @@
+button {
+    border: 0;
+    border-radius: 2.5px;
+    background: var(--theme-color);
+    padding: 5px;
+}
+
+button.border {
+    border: 1.5px solid var(--border-color);
+}
+
+button.transparent {
+    background: transparent;
+}
+
+button:hover {
+    -webkit-backdrop-filter: brightness(0.975);
+    backdrop-filter: brightness(0.975);
+    -webkit-filter: brightness(1.1);
+    filter: brightness(1.1);
+}
+
+button:active {
+    -webkit-backdrop-filter: brightness(0.95);
+    backdrop-filter: brightness(0.95);
+    -webkit-filter: brightness(0.95);
+    filter: brightness(0.95);
+}

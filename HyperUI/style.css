@@ -1,0 +1,22 @@
+@import url(/substyles/panel.css);
+@import url(/substyles/text.css);
+@import url(/substyles/button.css);
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: var(--font-color);
+}
+
+html, body {
+    height: 100%;
+    background-color: var(--background-color);
+}
+
+body.light {
+    --theme-color: rgb(245, 245, 245);
+    --background-color: rgb(210, 210, 210);
+    --border-color: rgb(50, 50, 50);
+    --shadow-color: rgb(180, 180, 180);
+    --font-color: rgb(25, 25, 25);
+}
